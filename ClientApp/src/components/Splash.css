@@ -1,0 +1,13 @@
+html, body {
+    background-image: url("https://media.istockphoto.com/photos/soccer-jerseys-picture-id182790712?k=20&m=182790712&s=612x612&w=0&h=z5pZ8pUxa1Z5W7MgDOIKTmMBbHl_YBuqFW0hAMEOAuk=");
+
+    height: 100%; 
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
