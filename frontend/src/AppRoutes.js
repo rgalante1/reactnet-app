@@ -1,6 +1,6 @@
 import { Counter } from "./components/Counter";
 import { FetchData } from "./components/FetchData";
-import { Home } from "./components/Home";
+import { Jerseys } from "./components/Jerseys";
 import { Splash } from "./components/Splash"
 
 const AppRoutes = [
@@ -9,8 +9,20 @@ const AppRoutes = [
     element: <Splash />
   },
   {
-    path: '/home',
-    element: <Home />
+    path: '/jerseys/nfl',
+    element: <Jerseys type="nfl"/>
+  },
+  {
+    path: '/jerseys/mlb',
+    element: <Jerseys type="mlb"/>
+  },
+  {
+    path: '/jerseys/nba',
+    element: <Jerseys type="nba"/>
+  },
+  {
+    path: '/jerseys/nhl',
+    element: <Jerseys type="nhl"/>
   },
   {
     path: '/counter',
